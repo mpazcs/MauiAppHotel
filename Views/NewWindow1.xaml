@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiAppHotel.Views.Sobre"
+             NavigationPage.HasNavigationBar="False"
+             BackgroundColor="#F5F0E6">
+
+    <VerticalStackLayout Padding="30"
+                         VerticalOptions="Center"
+                         Spacing="20">
+
+        <Label Text="Sobre"
+               FontSize="40"
+               FontFamily="Kalam"
+               TextColor="#2E8B57"
+               HorizontalTextAlignment="Center"/>
+
+        <Frame BackgroundColor="White"
+               CornerRadius="20"
+               Padding="20">
+
+            <VerticalStackLayout Spacing="10">
+
+                <Label Text="Aplicativo de hospedagem desenvolvido em .NET MAUI."
+                       FontSize="18"/>
+
+                <Label Text="Desenvolvido por Mariana Paz"
+                       FontSize="18"
+                       TextColor="#2E8B57"/>
+
+                <Label Text="Ano de desenvolvimento: 2026"
+                       FontSize="18"
+                       TextColor="#2E8B57"/>
+
+            </VerticalStackLayout>
+
+        </Frame>
+
+        <Button Text="Voltar"
+                Clicked="Button_Clicked"
+                BackgroundColor="#2E8B57"
+                TextColor="White"
+                CornerRadius="15"/>
+
+    </VerticalStackLayout>
+
+</ContentPage>
